@@ -27,7 +27,7 @@ if &t_Co > 255
    hi DiffAdd                     ctermbg=24
    hi DiffChange      ctermfg=181 ctermbg=239
    hi DiffDelete      ctermfg=162 ctermbg=53
-   hi DiffText                    ctermbg=102 cterm=bold
+   hi DiffText                    ctermbg=102   cterm=bold
 
    hi Directory       ctermfg=118               cterm=bold
    hi Error           ctermfg=219 ctermbg=89
@@ -46,7 +46,7 @@ if &t_Co > 255
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
 
-   hi MatchParen      ctermfg=16  ctermbg=208 cterm=bold
+   hi MatchParen      ctermfg=16  ctermbg=208   cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi Operator        ctermfg=161
@@ -73,7 +73,7 @@ if &t_Co > 255
    hi Statement       ctermfg=190 cterm=bold
    hi StatusLine      ctermfg=130 ctermbg=231
    hi StatusLineNC    ctermfg=235 ctermbg=250
-   hi VertSplit       ctermfg=235 ctermbg=NONE cterm=bold
+   hi VertSplit       ctermfg=235 ctermbg=NONE  cterm=bold
    hi StorageClass    ctermfg=208
    hi Structure       ctermfg=81
    hi Tag             ctermfg=161
@@ -84,14 +84,14 @@ if &t_Co > 255
    hi Type            ctermfg=81                cterm=none
    hi Underlined      ctermfg=244               cterm=underline
 
-   hi VisualNOS                   ctermbg=238
-   hi Visual                      ctermbg=233
+   hi VisualNOS                   ctermbg=243
+   hi Visual                      ctermbg=238
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
    hi Normal          ctermfg=252
    hi Comment         ctermfg=59
-   hi CursorLine                  ctermbg=232 cterm=none
+   hi CursorLine                  ctermbg=232   cterm=none
    hi CursorColumn                ctermbg=234
    hi LineNr          ctermfg=240
    hi NonText         ctermfg=250
