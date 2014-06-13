@@ -95,4 +95,13 @@ if &t_Co > 255
    hi CursorColumn                ctermbg=235
    hi LineNr          ctermfg=240
    hi NonText         ctermfg=250
+
+   " MiniBufExpl Colors
+   hi MBEVisibleActive        ctermfg=220
+   hi MBEVisibleChangedActive ctermfg=214
+   hi MBEVisibleChanged       ctermfg=208
+   hi MBEVisibleNormal        ctermfg=226
+   hi MBEChanged              ctermfg=202
+   hi MBENormal               ctermfg=252
+
 end
